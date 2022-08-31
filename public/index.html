@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+    <title>Student Detail|| Create Your Student Detail</title>
+  </head>
+  <body>
+ 
+
+    <form class="single-task-form task-form">
+      <h4>Create Your Student Detail</h4>
+      <!-- <div class="form-control">
+        <label>Task ID</label>
+        <p class="task-edit-id"></p>
+      </div> -->
+      <!-- <div class="form-control">
+        <label for="completed">completed</label>
+        <input type="checkbox" name="completed" class="task-edit-completed" />
+      </div> -->
+      <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="task-input" />
+      </div>
+
+      <div class="form-control">
+        <label for="sex">Sex</label>
+        <input type="text" name="sex" class="task-edit-name" />
+      </div>
+
+      <div class="form-control">
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" class="task-edit-name" />
+      </div>
+
+      <div class="form-control">
+        <label for="department">Department</label>
+        <input type="text" name="department" class="task-edit-name" />
+      </div>
+
+        <div class="form-control">
+        <label for="type">Old Student</label>
+        <input type="checkbox" name="type" class="task-edit-completed" />
+      </div>
+
+      <button type="submit" class="block btn task-edit-btn">Submit</button>
+      <div class="form-alert"></div>
+    </form>
+
+    
+
+    <section class="tasks-container">
+      <p class="loading-text">Loading...</p>
+      <div class="tasks"></div>
+    </section>
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./browser-app.js"></script>
+  </body>
+</html>
+
